@@ -2,10 +2,13 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
+    "types": ["node"],
     "lib": ["ESNext"],
     "target": "ESNext",
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
     "strict": false,
     "sourceMap": true,
     "esModuleInterop": true,
