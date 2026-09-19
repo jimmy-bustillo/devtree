@@ -7,13 +7,15 @@
   "author": "Jimmy Bustillo",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/index.ts"
+    "dev": "node --watch src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
     "typescript": "^7.0.2"
   }
 }
