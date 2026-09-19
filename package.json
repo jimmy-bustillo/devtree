@@ -5,12 +5,15 @@
   "description": "Primer proyecto con Express y TypeScript",
   "license": "ISC",
   "author": "Jimmy Bustillo",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch src/index.ts"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "^7.0.2"
   }
 }
